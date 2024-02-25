@@ -1,0 +1,84 @@
+
+.task1{
+    background-color:#EEE;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border-width: 2px;
+    border-color: #f42d35 #0088ff;
+    border-style: solid ;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+}
+span{
+    position: absolute;
+    color: white;
+    background-color: #0088ff;
+    margin: 0px;
+    width: 25px;
+    height: 20px;
+}
+.top-left
+{
+    top: -10px;;
+    left: -13px;
+    border-right: 2px solid #f42d35;
+}
+.bottom-left{
+    bottom: -10px;
+    left: -13px;
+    border-right: 2px solid #f42d35;
+}
+.top-right
+{
+    top: -10px;
+    right: -13px;
+    border-left: 2px solid #f42d35;
+}
+.bottom-right{
+    bottom:  -10px;
+    right:  -13px;
+    border-left: 2px solid #f42d35;
+}
+caption{
+    font-weight: bold;
+    margin: 10px;
+    font-size: larger;
+}
+table{
+    margin: auto;
+    width: 700px;
+    text-align: center;
+    font-family: sans-serif;
+    border-bottom: 2px solid green;
+}
+ table td{
+    padding: 15px;
+    background-color: #EEE;
+}
+ table thead td{
+    background-color:#4f4f4f;
+    color: white;
+    font-weight: bold;
+}
+button{
+    color: white;
+    background-color: #0088ff;
+    border: none;
+    font-weight: bold;
+    padding: 3px;
+    cursor:pointer;
+}
+.delete{
+    background-color: #f42d35;
+    width: 60px;
+}
+.view{
+    background-color: #0088ff;
+    width: 50px;
+}
+img{
+    border: 2px solid white;
+}
+
